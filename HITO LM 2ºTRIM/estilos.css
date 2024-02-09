@@ -1,0 +1,38 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+.col-md-3 {
+  border-right: 1px solid #ddd;
+}
+
+.col-md-3 h5 {
+  color: #333;
+}
+.navbar-nav a,
+.navbar-brand,
+.col-md-3 ul li a {
+  color: #007bff;
+}
+
+.navbar-nav a:hover,
+.col-md-3 ul li a:hover {
+  color: #0056b3;
+}
+.col-md-9 h2 {
+  color: #333;
+}
+@media (max-width: 767px) {
+  .col-md-3 {
+    border-right: none;
+    margin-bottom: 20px;
+  }
+}
